@@ -11,7 +11,7 @@
 - request:
     url: /inquiry-account-info$
     query:
-      citizenId: 1234567890
+      citizenId: 1234567890123
     method: GET
   response:
     status: 200
