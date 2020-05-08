@@ -1,0 +1,28 @@
+- request:
+    url: /
+    method: GET
+  response:
+    status: 200
+    headers:
+      content-type: text/plain
+      server: stubby for test server
+    body: stubby already to use
+
+- request:
+    url: /inquiry-account-info$
+    query:
+      citizenId: 1234567890
+    method: GET
+  response:
+    status: 200
+    headers:
+      content-type: application/json
+    body: >
+      [
+        {
+          "nameTh": "สมชัย", "nameEn": "Somchai", "accountNo": "1234567890"
+        },
+        {
+          "nameTh": "ร้านสมชัยอารี", "nameEn": "Somchai Aree", "accountNo": "1234567891"
+        }
+      ]
