@@ -1,0 +1,2 @@
+1. ใช้ Terminal ตรวจสอบ java -version เป็น 1.8
+2. Run คำสั่ง java -jar stubby4j-6.0.2.jar -d <ชื่อไฟล์>.yml
